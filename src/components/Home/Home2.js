@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sandeshtamanq"
+                  href="https://github.com/Pratik4321"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/lamasandesh4001"
+                  href="https://twitter.com/rule_ap"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:lamasandesh400@gmail.com"
+                  href="mailto:pratikgiri2015@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -100,7 +100,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sandesh-tamang-68a26017b/"
+                  href="https://www.linkedin.com/in/pratik-giriii/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
