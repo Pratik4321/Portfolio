@@ -8,7 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p className="card-body" style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="primary-header">Sandesh Tamang</span> from Bharatpur, Chitwan, Nepal. I am a computer science graduate and a passionate programmer.
+            Hi Everyone, I am{" "}
+            <span className="primary-header">Pratik Giri</span> from kathmandu,
+            Nepal. I am a computer science graduate and a passionate programmer.
             <br />
             <br />
             In addition to coding, here are some other things I enjoy doing!

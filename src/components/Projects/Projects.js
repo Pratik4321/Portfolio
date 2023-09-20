@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
-import portfolioCli from "../../Assets/Projects/portfolio-cli.png";
-import portfolioGui from "../../Assets/Projects/portfolio-gui.png";
-import ecommerce from "../../Assets/Projects/ecommerce.png";
+import checkmysite from "../../Assets/CheckMySite.PNG";
+import portfolioGui from "../../Assets/portfolio3.PNG";
+import khaneyTimes from "../../Assets/khaneyTime.PNG";
 import "./project.css";
 
 function Projects() {
@@ -18,11 +18,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={portfolioCli}
-              title="Portfolio CLI Website"
-              description="My personal Portfolio Website build with React and Bootstrap with CLI desigin"
-              ghLink="https://github.com/sandeshtamanq/Portfolio"
-              demoLink="https://sandeshtmg.com.np/"
+              imgPath={checkmysite}
+              title="Portfolio GUI Website"
+              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
+              ghLink="#"
+              demoLink="#"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
@@ -37,8 +37,8 @@ function Projects() {
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={ecommerce}
-              title="Ecommerce"
+              imgPath={khaneyTimes}
+              title="KhanyTimes"
               description="This is a fully functional eCommerce website that uses React.js + Tailwind and redux-toolkit in the front end and nestjs and typeorm in backend and PostgresSql as Database."
               ghLink="https://github.com/sandeshtamanq/7thsem-project_backend"
               demoLink="https://7th-sem-project-frontend.vercel.app/"
@@ -47,16 +47,7 @@ function Projects() {
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={ecommerce}
-              title="Ecommerce"
-              description="This is a fully functional eCommerce website that uses React.js + Tailwind and redux-toolkit in the front end and nestjs and typeorm in backend and PostgresSql as Database."
-              ghLink="https://github.com/sandeshtamanq/7thsem-project_backend"
-              demoLink="https://7th-sem-project-frontend.vercel.app/"
-            />
-          </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
+              imgPath={khaneyTimes}
               title="Ecommerce"
               description="This is a fully functional eCommerce website that uses React.js + Tailwind and redux-toolkit in the front end and nestjs and typeorm in backend and PostgresSql as Database."
               ghLink="https://github.com/sandeshtamanq/7thsem-project_backend"

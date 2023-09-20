@@ -1,7 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiGit, DiMysql, DiPostgresql } from "react-icons/di";
-import { SiFirebase, SiNextdotjs, SiTailwindcss, SiRedux, SiNestjs } from "react-icons/si";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiGit,
+  DiMysql,
+  DiPostgresql,
+} from "react-icons/di";
+import {
+  SiFirebase,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiRedux,
+  SiNestjs,
+} from "react-icons/si";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -34,12 +48,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNestjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
       </Col>
     </Row>
   );
