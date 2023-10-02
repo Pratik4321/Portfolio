@@ -19,19 +19,19 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={checkmysite}
-              title="Portfolio GUI Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
+              title="CheckMySite"
+              description="CheckMySite is a comprehensive and user-friendly online platform designed to help website owners and administrators monitor the status and performance of their websites."
               ghLink="#"
-              demoLink="#"
+              demoLink="https://www.checkmysite.live/"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={portfolioGui}
-              title="Portfolio GUI Website"
+              title="Portfolio Website"
               description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="#"
-              demoLink="#"
+              ghLink="https://github.com/Pratik4321/Portfolio"
+              demoLink="https://www.giripradip.com.np/"
             />
           </Col>
 
@@ -39,9 +39,9 @@ function Projects() {
             <ProjectCard
               imgPath={khaneyTimes}
               title="KhanyTimes"
-              description="This is a fully functional eCommerce website that uses React.js + Tailwind and redux-toolkit in the front end and nestjs and typeorm in backend and PostgresSql as Database."
-              ghLink="https://github.com/sandeshtamanq/7thsem-project_backend"
-              demoLink="https://7th-sem-project-frontend.vercel.app/"
+              description="Khaney time is a simple restaurant app to find places to eat around you that uses React.js + Tailwind and redux-toolkit in the front end"
+              ghLink="#"
+              demoLink="https://khaney-time.vercel.app/"
             />
           </Col>
 
