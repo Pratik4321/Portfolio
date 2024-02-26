@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCards";
 import checkmysite from "../../Assets/CheckMySite.PNG";
 import portfolioGui from "../../Assets/portfolio3.PNG";
 import khaneyTimes from "../../Assets/khaneyTime.PNG";
+import ecommmerce from "../../Assets/ecommerce.png"
 import "./project.css";
 
 function Projects() {
@@ -47,7 +48,7 @@ function Projects() {
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={khaneyTimes}
+              imgPath={ecommmerce}
               title="Ecommerce"
               description="This is a fully functional eCommerce website that uses React.js + Tailwind and redux-toolkit in the front end and nestjs and typeorm in backend and PostgresSql as Database."
               ghLink="https://github.com/sandeshtamanq/7thsem-project_backend"
